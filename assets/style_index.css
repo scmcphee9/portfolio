@@ -29,9 +29,13 @@ container {
 /* pulls nav bar to front */
 nav {
   z-index: 1;
+  width: 100%;
 }
 
-.position-relative {
-  left: 20px;
-  top: 20px;
+.card {
+  margin: 20px;
 }
+
+/* .full-card {
+  margin: 20px;
+} */
