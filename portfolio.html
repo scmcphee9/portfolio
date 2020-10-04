@@ -10,6 +10,7 @@
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="./assets/style_portfolio.css" />
   </head>
   <body>
     <!-- Navbar start -->
@@ -37,9 +38,15 @@
       </div>
     </nav>
     <!-- Navbar End -->
+    <!-- background image -->
+    <img
+      class="background"
+      src="./assets/marcel-strauss-Jl83cEVFVNc-unsplash.jpg"
+      alt="Star trails"
+    />
 
-    <!-- start card portfolio pictures -->
-    <container>
+    <!-- This code below that is commented out is not responsive to smaller screens.  Couldn't keep all the images inside the card when shrunk. -->
+    <!-- <container>
       <div class="card" style="width: 75%">
         <div class="card-body">
           <h5 class="card-title">Portfolio</h5>
@@ -89,8 +96,93 @@
           </row>
         </div>
       </div>
-    </container>
-    <!-- end card portfolio pictures -->
+    </container> -->
+
+    <!-- Start Portfolio images -->
+    <div class="container">
+      <h1>Portfolio</h1>
+      <div class="row">
+        <div class="card" class="col-md-4" style="width: 18rem">
+          <img src="./assets/DSC_0012.jpg" class="card-img-top" alt="Rose" />
+          <div class="card-body">
+            <p class="card-text">About Face Rose (Side)</p>
+          </div>
+        </div>
+        <div class="card" class="col-md-4" style="width: 18rem">
+          <img
+            src="./assets/DSC_0015.jpg"
+            class="card-img-top"
+            alt="Night Light"
+          />
+          <div class="card-body">
+            <p class="card-text">Steamboat Light painting</p>
+          </div>
+        </div>
+        <div class="card" class="col-md-4" style="width: 18rem">
+          <img
+            src="./assets/DSC_0016.jpg"
+            class="card-img-top"
+            alt="Night Barn"
+          />
+          <div class="card-body">
+            <p class="card-text">Historic Steamboat Barn</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="card" class="col-md-4" style="width: 18rem">
+          <img src="./assets/DSC_0020.jpg" class="card-img-top" alt="Rose" />
+          <div class="card-body">
+            <p class="card-text">About Face Rose (Above)</p>
+          </div>
+        </div>
+        <div class="card" class="col-md-4" style="width: 18rem">
+          <img
+            src="./assets/DSC_0021.JPG"
+            class="card-img-top"
+            alt="Scout puppy"
+          />
+          <div class="card-body">
+            <p class="card-text">Ears trying hard</p>
+          </div>
+        </div>
+        <div class="card" class="col-md-4" style="width: 18rem">
+          <img
+            src="./assets/DSC_0070.jpg"
+            class="card-img-top"
+            alt="Milky Way"
+          />
+          <div class="card-body">
+            <p class="card-text">Rabbit Ears Milkyway</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="card" class="col-md-4" style="width: 18rem">
+          <img src="./assets/DSC_0182.jpg" class="card-img-top" alt="Farm" />
+          <div class="card-body">
+            <p class="card-text">Pennsylvania Farm</p>
+          </div>
+        </div>
+        <div class="card" class="col-md-4" style="width: 18rem">
+          <img
+            src="./assets/DSC_0333.jpg"
+            class="card-img-top"
+            alt="Bird of paradise"
+          />
+          <div class="card-body">
+            <p class="card-text">Bird of Paradise</p>
+          </div>
+        </div>
+        <div class="card" class="col-md-4" style="width: 18rem">
+          <img src="./assets/DSC_0798.jpg" class="card-img-top" alt="Monarch" />
+          <div class="card-body">
+            <p class="card-text">Monarch Caterpillar</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end portfolio images -->
 
     <!-- Bootstrap JS link source -->
     <script
