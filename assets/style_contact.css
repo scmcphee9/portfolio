@@ -36,3 +36,7 @@ nav {
   bottom: 0;
   width: 100%;
 }
+
+.card-body {
+  background-color: rgb(240, 240, 229);
+}
