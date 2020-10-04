@@ -26,7 +26,7 @@ nav {
 }
 
 .card {
-  margin: 20px;
+  margin: 50px;
 }
 
 .footer {
@@ -39,4 +39,8 @@ nav {
 
 .card-body {
   background-color: rgb(240, 240, 229);
+}
+
+h5 {
+  font-family: "Bangers", cursive;
 }
