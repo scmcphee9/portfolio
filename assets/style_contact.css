@@ -46,3 +46,9 @@ nav {
 h5 {
   font-family: "Bangers", cursive;
 }
+
+#linkedInHeader {
+  width: 32px;
+  height: 32px;
+  margin-left: 10px;
+}

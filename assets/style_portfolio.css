@@ -49,3 +49,9 @@ p {
   font-family: "Cormorant Garamond", serif;
   font-weight: 800;
 }
+
+#linkedInHeader {
+  width: 32px;
+  height: 32px;
+  margin-left: 10px;
+}
