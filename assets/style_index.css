@@ -34,7 +34,7 @@ nav {
 }
 
 .footer {
-  position: fixed;
+  position: relative;
   z-index: 50;
   text-align: center;
   bottom: 0;
