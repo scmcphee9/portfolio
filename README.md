@@ -4,4 +4,4 @@ This is a website about me. It describes me and my home life. It also shows some
 
 click the link here for the site: https://scmcphee9.github.io/portfolio/
 
-<img src = "./assets/portfolio.png" alt="Portfolio Screenshot">
+<img src = "./assets/images/portfolio.png" alt="Portfolio Screenshot">
